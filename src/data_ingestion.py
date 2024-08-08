@@ -15,7 +15,6 @@ def dataingestion(file_path):
 
     save_option = ap.ExcelSaveOptions()
     save_option.format = ap.ExcelSaveOptions.ExcelFormat.CSV
-
     # Save the file
     document.save(output_pdf, save_option)
 
